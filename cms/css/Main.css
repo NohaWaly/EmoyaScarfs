@@ -1,0 +1,152 @@
+.main{
+    background-image: url(../img/cover.jpg);
+    min-height: 600px;
+    background-size: cover;
+}
+.navbar-inverse{
+    margin: 0;
+}
+footer{
+background-color: black; 
+height=100px;
+margin: 0;
+}
+footer p{
+    margin: 0;
+    color: aliceblue;
+    text-align: center;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.navbar-inverse .navbar-brand{
+    font-size: 25px;
+}
+.main-content{
+    min-height: 580px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	position: center;
+	font-size:16px;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+   // padding: 14px 20px;
+    //margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+	font-size:20px;
+}
+
+.btn-primary{
+	width: 250px;
+	margin-left:26px;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 0;
+    position: relative;
+    
+}
+.avatar {
+    width: 200px;
+	height:200px;
+    border-radius: 70%;
+}
+
+.control-group{
+    margin: auto;
+    text-align: center;
+}
+
+thead{
+    border: 2px;
+    font-size: 20px;
+    color: brown;
+   
+}
+th{
+     text-align: center;
+}
+.table{
+    border: 5px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.loggingout h1{
+    text-align: left;
+    margin-top: 0;
+    color: white;
+    padding: 40px;
+    
+}
+.main h1{
+    margin: 0;
+    padding: 100px;
+    color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+    font-family: 'Charm', cursive;
+}
+.loggingout{
+     min-height: 1300px;
+    background-image: url(../img/bye.jpg);
+    background-clip: content-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  
+    
+}
+
+
+.loggingout a{
+    padding-top: 50px;
+    font-size:80px;
+    font-family: 'Charm', cursive;
+    text-decoration-line: none;
+    color: brown;
+    
+}
+.loggingout a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.loginForm{
+    min-height: 600px;
+    background-color: bisque;
+}
+
+.loginForm .imgcontainer{
+    padding-top: 50px;
+}
+.loginForm .container{
+align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.btn-primary{
+    margin-top: 20px;
+}
